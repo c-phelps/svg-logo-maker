@@ -47,15 +47,15 @@ async function runInquirer() {
       currShape.Shape = res.inShape;
     } else if (i === 1) {
       // for question 2 save the shapecolor and set the current color
-      currShape.ShapeColor = res.inShapeColor;
-      currColor = res.inShapeColor;
+      currShape.ShapeColor = res.inShapeColor.replaceAll(" ", "");
+      currColor = res.inShapeColor.replaceAll(" ", "");
     } else if (i === 2) {
       // for question 3, save the text
       currShape.Text = res.inText;
     } else if (i === 3) {
       // for question 4 save the textcolor and set the current color
-      currShape.TextColor = res.inTextColor;
-      currColor = res.inTextColor;
+      currShape.TextColor = res.inTextColor.replaceAll(" ", "");
+      currColor = res.inTextColor.replaceAll(" ", "");
     }
     // if color is defined
     if (currColor !== undefined) {
