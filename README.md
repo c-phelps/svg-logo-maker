@@ -1,4 +1,5 @@
 # SVG Logo Maker           [![License:](https://img.shields.io/badge/License:-MIT-red)](http://choosealicense.com/licenses/mit/)
+Walkthrough video link: https://streamable.com/7qwvhv
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation-instructions)
